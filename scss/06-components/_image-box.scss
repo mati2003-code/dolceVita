@@ -20,6 +20,10 @@
     &--next {
       background: url(../../assets/img/two.jpeg) center/cover;
     }
+
+    @include medium {
+      height: 16rem;
+    }
   }
 
   &__text {

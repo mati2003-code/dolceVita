@@ -2,7 +2,10 @@
 
 .site-contact {
 
-  background: url(../assets/img/contact.webp) center/cover fixed;
+  background-image: url(../assets/img/contact.webp) fixed;
+  background-size: cover;
+  background-position: center;
+
   min-height: 55rem;
   color: $color-white;
   position: relative;
